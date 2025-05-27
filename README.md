@@ -55,12 +55,12 @@ npm install
 
 lead-gen-backend/
 ├── db/
-│   └── database.js           # SQLite DB setup
+│   └── database.js           
 ├── routes/
-│   └── leads.js              # Route to handle lead submission
-├── .env                      # Config variables
-├── leads.db                  # SQLite database file
-├── server.js                 # Express server entry
+│   └── leads.js              
+├── .env                      
+├── leads.db                  
+├── server.js                 
 ├── package.json
 └── README.md
 
