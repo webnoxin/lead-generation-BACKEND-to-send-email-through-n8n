@@ -10,7 +10,6 @@ router.post('/', async (req, res) => {
     return res.status(400).json({ error: 'Name and Email are required' });
   }
 
-  // Optional: Save to DB
   db.run(
     `INSERT INTO leads (name, email, company, message) VALUES (?, ?, ?, ?)`,
     [name, email, company, message],
